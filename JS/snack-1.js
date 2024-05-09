@@ -11,7 +11,7 @@ const zucchine = [
     { varietà: "romanesco", peso: 110, lunghezza: 15 },
     { varietà: "gialle", peso: 205, lunghezza: 20 },
     { varietà: "rugoso friulano", peso: 225, lunghezza: 21 },
-    { varietà: "crookneck", peso: 375, lunghezza: 37 }, ,
+    { varietà: "crookneck", peso: 375, lunghezza: 37 },
     { varietà: "patisson", peso: 450, lunghezza: 35 },
 ]
 
@@ -38,8 +38,8 @@ const zucchine = [
 let sommaZucchine = 0
 for (let i = 0; i < zucchine.length; i++) {
     sommaZucchine += zucchine[i].peso;
-    console.log(i, sommaZucchine)
 }
+console.log("pesiamo", sommaZucchine, "grammi")
 
 // Cannot read properties of undefined (reading 'peso') ??????
 
