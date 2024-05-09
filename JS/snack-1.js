@@ -17,6 +17,23 @@ const zucchine = [
 
 //console.log(zucchine.length) --> 11
 
+//SOLUZIONE SENZA CICLO
+
+// let a = Number(zucchine[0].peso)
+// let b = Number(zucchine[1].peso)
+// let c = Number(zucchine[2].peso)
+// let d = Number(zucchine[3].peso)
+// let e = Number(zucchine[4].peso)
+// let f = Number(zucchine[5].peso)
+// let g = Number(zucchine[6].peso)
+// let h = Number(zucchine[7].peso)
+// let i = Number(zucchine[8].peso)
+// let l = Number(zucchine[9].peso)
+
+// let sommaZucchi = (a + b + c + d + e + f + g + h + i + l)
+// console.log("Il peso delle mie zucchine", sommaZucchi, "grammi")
+
+
 //FACCIO UN CICLO
 let sommaZucchine = 0
 for (let i = 0; i < zucchine.length; i++) {
@@ -30,6 +47,6 @@ for (let i = 0; i < zucchine.length; i++) {
 
 // let sommaZucchine = 0;
 // for (let i = 0; i < zucchine.length; i++) {
-// 	sommaZucchine += zucchine[i].peso; ---> QUESTO FUNZIONE ED è UGUALE!
+// 	sommaZucchine += zucchine[i].peso; ---> è UGUALE!
 // }
 
